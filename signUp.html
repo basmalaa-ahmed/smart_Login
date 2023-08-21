@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="form text-center w-75 mx-auto p-5">
+                <h1>Smart Login System</h1>
+                <input type="text" placeholder="Enter Your Name" class="form-control w-75  mx-auto mt-3" id="userName">
+                <div id="userNameAlert" class="alert alert-danger pb-0 pt-3 d-none w-75 mx-auto">
+                    <p>include at least 3 letters starting with capital</p>
+                </div>
+
+                <input type="email" placeholder="Enter Your Email" class="form-control w-75  mx-auto mt-3" id="userEmail">
+                <div id="userEmailAlert" class="alert alert-danger pb-0 pt-3 d-none  w-75 mx-auto">
+                    <p>ex: &nbsp; &nbsp; name@example.com</p>
+                </div>
+                <input type="password" placeholder="Enter Your password" class="form-control w-75  mx-auto mt-3" id="userPassword">
+                <div id="userPasswordAlert" class="alert alert-danger pb-0 pt-3 d-none w-75 mx-auto">
+                    <p>you must strength your password, from 5 to 15 characters</p>
+                </div>
+                <div class="msgs text-center">
+                    <p class="text-success d-none" id="confirmMsg">Success</p>
+                    <p class="text-danger d-none" id="accountExistMsg">this account is exist ! Try another one.</p>
+                    <p class="text-danger d-none" id="tryAgainMsg">signUp failed ! Try again</p>
+                </div>
+                <button class="btn btn-outline-info mt-4 w-75 "onclick="signUp()" id="signUpBtn">Sign Up</button>
+                <p class="text-white mt-2">You have an account? <a href="index.html" class="text-decoration-none text-white">Signin</a> </p>
+
+            </div>
+        </div>
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,39 @@
+body{
+    background-color: #24353f;
+    
+}
+.container{
+    margin: 20px auto;
+    padding: 10px;
+    box-shadow: 5px 2px 54px -9px rgb(0 0 0);
+
+}
+.form input{
+    border: 1px solid #ced4da;
+    background-color: transparent;
+    
+   
+}
+input::placeholder{
+    color: #ced4da !important;
+}
+ 
+h1{
+    color: #17a2b8;
+    line-height: 48px;
+    font-size: 40px;
+    font-weight: 500;
+}
+nav{
+    box-shadow: 5px 2px 54px -9px rgb(0 0 0);
+    
+}
+.navbar-nav .nav-link.active{
+    color: #ced4da;
+}
+.navbar-brand{
+    color: #ced4da;
+} 
+.navbar-brand:hover{
+    color: #ced4da;
+}
